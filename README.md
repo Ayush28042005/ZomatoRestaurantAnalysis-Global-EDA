@@ -2,8 +2,7 @@
 
 This project explores the global Zomato restaurant dataset to understand food trends, customer preferences, ratings, cuisines, and country-wise patterns. Using real-world data and Python-based analysis, the project walks through how raw data is cleaned, processed, and transformed into meaningful insights.
 
-** Datasets Used**
-🔹 zomato.csv
+-> Datasets Used - zomato.csv
 
 The main dataset containing detailed information about restaurants across different countries.
 It includes:
