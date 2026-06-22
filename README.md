@@ -1,6 +1,6 @@
-# Zomato Restaurant Analysis – Global EDA
+# Zomato Restaurant Analysis - Global EDA
 
-EDA on the Zomato dataset covering restaurants across 15 countries — analysing ratings, cuisines, pricing, and customer behaviour using Python.
+EDA on the Zomato dataset covering restaurants across 15 countries - analysing ratings, cuisines, pricing, and customer behaviour using Python.
 
 
 ## Dataset
