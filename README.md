@@ -48,6 +48,8 @@ Fixed inconsistent text (like extra spaces or mixed formats)
 
 Converted columns to proper data types
 
+
+
 -> Data Processing & Merging
 
 Added country names using the Country-Code.xlsx file
@@ -55,6 +57,8 @@ Added country names using the Country-Code.xlsx file
 Extracted useful new fields (like primary cuisine)
 
 Categorized restaurants by price range and rating color
+
+
 
 -> Exploration & Insights
 
@@ -72,6 +76,8 @@ Do people prefer restaurants that offer online delivery?
 
 Which places have extremely high or low-rated restaurants?
 
+
+
 -> Visualizations
 
 Created clear visual representations such as:
@@ -87,6 +93,8 @@ Price vs. rating comparisons
 Vote vs. rating scatter plots
 
 These visuals help transform numbers into stories.
+
+
 
 -> Key Outcomes
 
@@ -104,6 +112,8 @@ Patterns in online delivery and table booking trends
 
 This project makes the dataset easier to interpret and perfect for anyone exploring data analysis or the food industry.
 
+
+
 -> How to Use the Project
 
 Clone the repository
@@ -113,6 +123,8 @@ Install dependencies (Pandas, NumPy, Matplotlib, Seaborn, etc.)
 Open the notebook
 
 Run the cells to reproduce the analysis step-by-step
+
+
 
 -> Why This Project?
 
