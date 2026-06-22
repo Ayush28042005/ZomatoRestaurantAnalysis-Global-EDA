@@ -5,8 +5,8 @@ EDA on the Zomato dataset covering restaurants across 15 countries — analysing
 
 ## Dataset
 
-- **zomato.csv** — restaurant names, locations, cuisines, ratings, votes, price range, delivery/booking info
-- **Country-Code.xlsx** — maps country codes to country names for geographic analysis
+- **zomato.csv** - restaurant names, locations, cuisines, ratings, votes, price range, delivery/booking info
+- **Country-Code.xlsx** - maps country codes to country names for geographic analysis
 
   
 ## What I Did
