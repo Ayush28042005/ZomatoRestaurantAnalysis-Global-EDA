@@ -1,72 +1,48 @@
-**Zomato Restaurants – Exploratory Data Analysis**
+# Zomato Restaurant Analysis – Global EDA
 
-Exploratory data analysis on the Zomato dataset covering restaurants across 15 countries. The goal was to dig into real-world messy data and pull out meaningful patterns around ratings, cuisines, pricing, and customer behaviour.
-
----
-
-Dataset
-Two files were used:
-1) zomato.csv — main dataset with restaurant names, locations, cuisines, ratings, votes, price range, and online delivery/table booking info
-2) Country-Code.xlsx — maps country codes to country names, merged in to enable country-level analysis
-
----
-
-What I Did -
-
-Data Cleaning
-
-Removed duplicate entries
-
-Handled missing values in cuisine and rating columns
-
-Fixed inconsistent text formatting
-
-Converted columns to appropriate data types
-
-Feature Engineering
-
-Merged country names from the code mapping file
-
-Extracted primary cuisine from multi-cuisine entries
-
-Categorised restaurants by price range and rating colour labels
+EDA on the Zomato dataset covering restaurants across 15 countries — analysing ratings, cuisines, pricing, and customer behaviour using Python.
 
 
-Analysis & Insights
-Explored questions like:
+## Dataset
 
-Which countries and cities have the highest restaurant density?
+- **zomato.csv** — restaurant names, locations, cuisines, ratings, votes, price range, delivery/booking info
+- **Country-Code.xlsx** — maps country codes to country names for geographic analysis
+- 
 
-Which cuisines are most popular globally vs. regionally?
+## What I Did
 
-Does price range correlate with customer ratings?
+**Data Cleaning**
+- Removed duplicates and handled missing values
+- Fixed inconsistent text formatting
+- Converted columns to correct data types
+  
 
-How does online delivery availability affect ratings and votes?
+**Feature Engineering**
+- Merged country names from the mapping file
+- Extracted primary cuisine from multi-cuisine entries
+- Categorised restaurants by price range and rating labels
+  
 
-Which restaurants are outliers — unusually high or low rated?
+**Key Questions Explored**
+- Which countries and cities have the most restaurants?
+- Which cuisines dominate globally vs. regionally?
+- Does price range affect customer ratings?
+- How does online delivery availability impact votes and ratings?
+  
 
+**Visualisations**
+- Country-wise restaurant distribution
+- Top cuisines globally
+- Rating distribution across countries
+- Price vs. rating and votes vs. rating comparisons
+  
 
-Visualisations:
-
-Country-wise restaurant distribution (pie chart)
-
-Top cuisines globally (bar plot)
-
-Rating distribution across countries
-
-Price vs. rating comparison
-
-Votes vs. rating scatter plot
-
----
-
-Tech Stack
+## Tech Stack
 
 Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
----
 
-How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/Ayush28042005/ZomatoRestaurantAnalysis--Global-EDA.git
@@ -75,7 +51,6 @@ pip install pandas numpy matplotlib seaborn openpyxl
 jupyter notebook exploratory-data-analysis.ipynb
 ```
 
----
+## Author
 
-Author
-Ayush Saini 
+Ayush Saini
